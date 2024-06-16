@@ -1,0 +1,24 @@
+.me{
+  background-color: var(--secondry-color);
+}
+
+
+.resume Button{
+  background-color: var(--main-color);
+  width: 10vw;
+  font-family: "Fredoka", sans-serif;
+
+}
+
+.history{
+  background-color: var(--main-color);
+  text-align: start;
+}
+
+.title{
+  font-family: "Fredoka", sans-serif;
+}
+
+.category{
+  width: 5rem;
+}

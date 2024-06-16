@@ -1,0 +1,36 @@
+.home{
+	margin-top: 0;
+}
+
+.left{
+  background-color: var(--main-color);
+  color: var(--secondry-color);
+}
+
+.right{
+  background-color: var(--secondry-color);
+}
+
+span{
+  color: var(--main-color);
+}
+
+.typing-animation {
+	width: 11ch;
+	border-right: 3px solid var(--secondry-color);
+	overflow: hidden;	
+	white-space: nowrap;	
+	animation: typing 2s steps(18), blink 0.4s step-end infinite alternate;	
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;	
+	}
+}
